@@ -45,6 +45,7 @@ public class HelloApplication extends Application {
                 lblResultado.setText("Debes llenar todos los campos");
             } else {
                 grid.setStyle("-fx-background-color: green;");
+                lblResultado.setStyle("-fx-background-color: lightblue; -fx-padding: 10px;");
 
                 lblResultado.setText("El nombre es " + nombre + " Apellido: " + apellido + " Comentario: "
                         + comentario + " Grupo: " + grupo);
